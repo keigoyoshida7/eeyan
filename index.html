@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+function ring1() {
+document.getElementById("tatata").play();
+}
+function ring2() {
+document.getElementById("kaka").play();
+}
+function ring3() {
+document.getElementById("ta").play();
+}
+function ring4() {
+document.getElementById("ka").play();
+}
+</script>
+</head>
+<body>
+<p>
+<audio id="tatata" preload="auto">
+<source src="uedasan.wav" type="audio/mp3">
+</audio>
+</p>
+<p>
+<input onclick="ring1();" type="button" value="ええやん uedasan" /></p>
+<p>
+<audio preload="auto" id="kaka">
+<source src="satasan.wav" type="audio/mp3">
+</audio>
+</p>
+<p>
+<input type="button" value="ええやん satasan" onclick="ring2();">
+</p>
+<p>
+  <audio preload="auto" id="ta">
+  <source src="fukatsusan.wav" type="audio/mp3">
+  </audio>
+  </p>
+  <p>
+  <input type="button" value="ええやん fukatsusan" onclick="ring3();">
+  </p>
+  <p>
+    <audio preload="auto" id="ka">
+    <source src="keigo.wav" type="audio/mp3">
+    </audio>
+    </p>
+    <p>
+    <input type="button" value="ええやん keigo" onclick="ring4();">
+    </p>
+</body>
+</html>
