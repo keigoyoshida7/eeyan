@@ -25,3 +25,10 @@ button.addEventListener("click", () => {
   const audio = new Audio("keigo.wav");
   audio.play();
 });
+
+const button5 = document.getElementById("play-button5");
+
+button.addEventListener("click", () => {
+  const audio = new Audio("kondousan.wav");
+  audio.play();
+});
