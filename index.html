@@ -16,6 +16,9 @@ document.getElementById("ta").play();
 function ring4() {
 document.getElementById("ka").play();
 }
+function ring5() {
+document.getElementById("la").play();
+}
 </script>
 </head>
 <body>
@@ -50,5 +53,13 @@ document.getElementById("ka").play();
     <p>
     <input type="button" value="ええやん keigo" onclick="ring4();">
     </p>
+    <p>
+      <audio preload="auto" id="la">
+      <source src="kondousan.wav" type="audio/mp3">
+      </audio>
+      </p>
+      <p>
+      <input type="button" value="ええやん kondousan" onclick="ring5();">
+      </p>
 </body>
 </html>
